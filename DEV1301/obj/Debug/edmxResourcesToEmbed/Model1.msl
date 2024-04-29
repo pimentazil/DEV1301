@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DEV1301ModelStoreContainer" CdmEntityContainer="DEV1301Entities">
+    <EntitySetMapping Name="tabUsuarios">
+      <EntityTypeMapping TypeName="DEV1301Model.tabUsuario">
+        <MappingFragment StoreEntitySet="tabUsuario">
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="dataCadastrado" ColumnName="dataCadastrado" />
+          <ScalarProperty Name="dataUltimoAcesso" ColumnName="dataUltimoAcesso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
